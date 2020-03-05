@@ -47,10 +47,15 @@
     background-color: transparent !important;
 }
 
+/* Custom Styles  */
 img {
     max-height: 190px;
 }
 
+.description-gallery {
+    color: white;
+    padding: 40px;
+}
 
 @media(max-width: 768px) {
     body {
