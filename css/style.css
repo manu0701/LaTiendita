@@ -28,8 +28,9 @@ a.nav-link {
 
 
 a.nav-link:hover {
+  color: none;
   background-color: none;
-  border-bottom: 1px solid rgba(28,110,164,0.58);
+  border-bottom: 2px solid rgba(28,110,164);
 }
 
 /* Navbar customize */
@@ -87,8 +88,15 @@ a.nav-link:hover {
   margin-bottom: 30px;
 }
 
+
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #00000080;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    max-height: 64px;
   }
 }
