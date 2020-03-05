@@ -1,5 +1,8 @@
 
-.container.gallery-container {
+.container.gallery-container { 
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #35373a;
     min-height: 100vh;
     border-radius: 20px;
@@ -12,6 +15,7 @@
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
     color: white;
+    margin-top: 50px;
 }
 
 .gallery-container p.page-description {
