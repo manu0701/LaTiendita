@@ -88,6 +88,9 @@ a.nav-link:hover {
   margin-bottom: 30px;
 }
 
+.form-control {
+  color: white;
+}
 
 @media only screen and (max-width: 768px) {
   .navbar {
