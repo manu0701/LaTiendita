@@ -20,7 +20,9 @@ h1 {
     overflow: hidden;
   }
 
-
+  .text-center {
+    color: aliceblue;
+  }
 
 
 @keyframes slidein {

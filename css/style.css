@@ -21,29 +21,30 @@ li.nav-item {
 }
 
 a.nav-link {
+  background-color: none;
   padding: 10px;
-  border-radius: 10px;}
-
-li.nav-item:hover {
-  padding: 10px;
+  /* border-radius: 10px; */
 }
 
+
 a.nav-link:hover {
-  background: none;
+  background-color: none;
   border-bottom: 1px solid rgba(28,110,164,0.58);
 }
 
-.navbar.navbar-dark .navbar-nav .nav-link {
-  padding: 10px;
-}
-
+/* Navbar customize */
 .navbar {
   background-color: #000000ad;
+}
+
+.fixed-top {
+  position: sticky;
 }
 
 .top-nav-collapse {
   background-color: #00000080;
 }
+
 
 /* Barra de Revonovando nuestro sitio  */
 .alert-info {
@@ -57,9 +58,13 @@ a.nav-link:hover {
   margin-top: 10%;
 }
 
-.card {
-    padding: 40px;
+
+/* Estilos Cartas */
+
+.cards {
+  padding: 50px;
 }
+
 .card-title {
     font-size: 20px;
 }
@@ -68,21 +73,9 @@ a.nav-link:hover {
     max-height: 350px;
 }
 
-.fixed-top {
-  position: sticky;
-}
-
 
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #00000080;
   }
-}
-
-.text-center {
-  color: aliceblue;
-}
-
-.cards {
-  padding: 50px;
 }
