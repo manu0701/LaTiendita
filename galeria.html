@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +14,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/gallery-style.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
 </head>
-<header>
-
-</header>
-<!-- End Navbar-->
 <body>
     <!-- NavBar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
@@ -55,36 +50,68 @@
         </div>
 </div>
 </nav>
-    <section id="galeria" class="container">
-        <div class="text-center mt-5">
-            <h1 class="entrada">Galeria</h1>
-            <p>Place form content within .navbar-form for proper vertical alignment and collapsed behavior in narrow viewports. Use the alignment options to decide where it resides within the navbar content. 
-            As a heads up, .navbar-form shares much of its code with .form-inline via mixin. Some form controls, like input groups, may require fixed widths to be show up properly within a navbar. </p>
-        </div>
+<!--End Navbar-->
+<div class="container gallery-container">
+
+    <h1>Galería</h1>
+
+    <p class="page-description text-center">Bienvenido a nuestra galería de fotos. <br> Hace click en cualquier imagen para verla en grande</p>
+    
+    <div class="tz-gallery">
 
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="imgs/1.jpg" alt="Galeria imagenes" class="img-top">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/1.jpg">
+                    <img src="imgs/1.jpg" alt="Park">
+                </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="imgs/2.jpg" alt="Galeria imagenes" class="img-top">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/2.jpg">
+                    <img src="imgs/2.jpg" alt="Bridge">
+                </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <img src="imgs/3.jpg" alt="Galeria imagenes" class="img-top">
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="imgs/3.jpg">
+                    <img src="imgs/3.jpg" alt="Tunnel">
+                </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="imgs/4.jpg" alt="Galeria imagenes" class="img-top">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/4.jpg">
+                    <img src="imgs/4.jpg" alt="Coast">
+                </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <img src="imgs/5.jpg" alt="Galeria imagenes" class="img-top">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/5.jpg">
+                    <img src="imgs/5.jpg" alt="Rails">
+                </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="imgs/6.jpg" alt="Galeria imagenes" class="img-top">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/6.jpg">
+                    <img src="imgs/6.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/artista-1.jpg">
+                    <img src="imgs/artista-1.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/artista-2.jpg">
+                    <img src="imgs/artista-2.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="imgs/artista-3.jpg">
+                    <img src="imgs/artista-3.jpg" alt="Sky">
+                </a>
             </div>
         </div>
-    </section>
 
-    <p class="text-center mt-5">
+    </div>
+
+</div>
+
+<p class="text-center mt-5">
         Placement
 Use our position utilities to place navbars in non-static positions. Choose from fixed to the top, fixed to the bottom, or stickied to the top (scrolls with the page until it reaches the top, then stays there). Fixed navbars use position: fixed, meaning they’re pulled from the normal flow of the DOM and may require custom CSS (e.g., padding-top on the <body>) to prevent overlap with other elements.
 
@@ -94,10 +121,11 @@ Also note that .sticky-top uses position: sticky, which isn’t fully supported 
 <br>
 <br>
 <br>
-    </p>
+</p>
 
-    <div class="alert alert-info" role="alert">
-        Estamos renovando nuestro sitio - La Tiendita Galería de Arte ® 2020      </div>
+<div class="alert alert-info" role="alert">
+        Estamos renovando nuestro sitio - La Tiendita Galería de Arte ® 2020 
+</div>
     <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
@@ -108,5 +136,8 @@ Also note that .sticky-top uses position: sticky, which isn’t fully supported 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js"></script>
 <!-- Baguette Box JS -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>
