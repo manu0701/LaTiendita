@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+
+/* font-family: 'Roboto', ;
+font-family: 'Montserrat', ; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+body {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li.nav-item {
+  padding: 10px;
+}
+
+li.nav-item:hover {
+  padding: 10px;
+  /* transform: scale(1.2); */
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+a.nav-link {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a.nav-link:hover {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link {
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #000000ad;
+}
+
+.top-nav-collapse {
+  background-color: #00000080;
+}
+
+.imagen {
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #00000080;
+  }
+}
+
+.text-center {
+  margin-top: 10%;
+}
+
+.container-fluid {
+    margin-top: 8%;
+}
+
+.carousel {
+  max-height: 60%;
+  margin-top: 6%;
+}
+
+.alert-info {
+  position: fixed;
+  font-family: "Roboto";
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  margin-top: 10%;
+}
+
+.card {
+    margin-bottom: 120px;
+    padding: 40px;
+}
+.card-title {
+    font-size: 20px;
+}
+
+.card-img-bottom, .card-img-top {
+    max-height: 350px;
+}
