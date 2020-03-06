@@ -13,8 +13,14 @@ body {
   background: #bdc3c7; /* fallback for old browsers */
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
 }
+
+.backgroundform {
+  background-color: white;
+}
+
+/* Nav items styiling */
 
 li.nav-item {
   padding: 10px;
@@ -30,7 +36,12 @@ a.nav-link {
 a.nav-link:hover {
   color: none;
   background-color: none;
-  border-bottom: 2px solid rgba(28,110,164);
+  /* border-bottom: 2px solid #ffffff; */
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 /* Navbar customize */
@@ -95,7 +106,7 @@ a.nav-link:hover {
 }
 
 label {
-  color: white;
+  color: white ;
 }
 
 @media only screen and (max-width: 768px) {
