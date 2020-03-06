@@ -51,8 +51,6 @@ a.nav-link:hover {
   max-height: 510px;
 }
 
-
-
 /* Barra de Revonovando nuestro sitio  */
 .alert-info {
   position: fixed;
@@ -89,6 +87,14 @@ a.nav-link:hover {
 }
 
 .form-control {
+  color: white;
+}
+
+.contact {
+  color: white;
+}
+
+label {
   color: white;
 }
 

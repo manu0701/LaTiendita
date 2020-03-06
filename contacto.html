@@ -55,60 +55,90 @@
     </div>
 </nav>
 <!--End Navbar-->
-<div class="container gallery-container">
-    <h1 class="pt-5">Galería</h1>
-    <p class="page-description text-center">Bienvenido a nuestra galería de fotos. <br> Hace click en cualquier
-        imagen para verla en grande</p>
-    <div class="tz-gallery">
+<section id="contact" class="py-5 col-lg-10 from1">
+    <div class="container">
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center mb-5 contact">Contactanos</h2>
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto mb-5 contact">Utiliza nuestro formulario de contacto si querés presentar tus obras con nosotros o por cualquier inquietud que tengas. <br>¡A la brevedad respoderemos!</p>
+        <!-- Grid row -->
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/1.jpg">
-                    <img src="imgs/1.jpg" alt="Park">
-                </a>
+            <!-- Grid column -->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form>
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="contact-name" class="form-control">
+                                <label for="contact-name" class="">Tu nombre</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="contact-email" class="form-control">
+                                <label for="contact-email" class="">Tu email</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="contact-Subject" class="form-control">
+                                <label for="contact-Subject" class="">Asunto</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="contact-message" class="form-control md-textarea"
+                                    rows="3"></textarea>
+                                <label for="contact-message">Tu mensaje</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </form>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-black btn-md">Enviar</a>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/2.jpg">
-                    <img src="imgs/2.jpg" alt="Bridge">
-                </a>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <i class="fa fa-map-marker fa-2x white-text"></i>
+                        <p>Bahía Blanca, Buenos Aires, Argentina</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-2x mt-4 purple-text"></i>
+                        <p>291 543 3222</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-2x mt-4 purple-text"></i>
+                        <p class="mb-0">contacto@latienditagaleria.com</p>
+                    </li>
+                </ul>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="imgs/3.jpg">
-                    <img src="imgs/3.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/4.jpg">
-                    <img src="imgs/4.jpg" alt="Coast">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/5.jpg">
-                    <img src="imgs/5.jpg" alt="Rails">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/6.jpg">
-                    <img src="imgs/6.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/artista-1.jpg">
-                    <img src="imgs/artista-1.jpg" alt="Rocks">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/artista-2.jpg">
-                    <img src="imgs/artista-2.jpg" alt="Benches">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="imgs/artista-3.jpg">
-                    <img src="imgs/artista-3.jpg" alt="Sky">
-                </a>
-            </div>
+            <!-- Grid column -->
         </div>
+        <!-- Grid row -->
     </div>
-</div>
+    </section>
 <p class="text-center mt-5 description-gallery">
     Placement Use our position utilities to place navbars in non-static positions. Choose from fixed to the top,
     fixed to the bottom, or stickied to the top (scrolls with the page until it reaches the top, then stays there).
