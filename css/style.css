@@ -16,9 +16,6 @@ body {
   background: linear-gradient(to top, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
 }
 
-.backgroundform {
-  background-color: white;
-}
 
 /* Nav items styiling */
 
@@ -107,6 +104,20 @@ a.nav-link:hover {
 
 label {
   color: white ;
+}
+
+.section {
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../imgs/1.jpg);
+  background-attachment: fixed;
+}
+
+p {
+  padding: 20px;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
